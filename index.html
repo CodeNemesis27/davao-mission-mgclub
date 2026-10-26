@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Masterguide Davao Mission</title>
+<meta name="description" content="Masterguide Club of the Davao Mission, Seventh-day Adventist Church. Meet the members.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Figtree:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#home" data-view-link="home" aria-label="Masterguide Davao Mission, home">
+      <svg viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="18" fill="#0B1730" stroke="#E2A71B" stroke-width="2.5"/>
+        <path d="M20 6l4.2 14H15.8z" fill="#E2A71B"/>
+        <path d="M20 34l-4.2-14h8.4z" fill="#A5B4CE"/>
+        <circle cx="20" cy="20" r="2.4" fill="#0B1730" stroke="#E2A71B" stroke-width="1.2"/>
+      </svg>
+      <span><b>Masterguide</b><small>Davao Mission</small></span>
+    </a>
+    <nav aria-label="Main">
+      <a href="#home" data-view-link="home">Home</a>
+      <a href="#members" data-view-link="members">Members</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HOME ============ -->
+<main id="view-home" class="view">
+  <section class="hero" aria-labelledby="heroTitle">
+    <canvas id="topo" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow mono"><i class="dot"></i>7.0731° N · 125.6128° E · Davao City</p>
+          <h1 id="heroTitle">Leaders who <span>walk the trail</span> first.</h1>
+          <p class="lede">The Masterguide Club of the Davao Mission, Seventh-day Adventist Church, is a fellowship of trained Pathfinder and Adventurer leaders who serve, mentor and camp alongside the youth of Davao.</p>
+          <div class="cta-row">
+            <a class="btn btn-gold" href="#members" data-view-link="members">Meet our members
+              <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#about" data-scroll="about">What we do</a>
+          </div>
+        </div>
+        <div class="compass-wrap">
+          <svg class="compass" viewBox="0 0 400 400" role="img" aria-label="A compass needle settling to north">
+            <circle cx="200" cy="200" r="190" fill="rgba(238,242,248,0.03)" stroke="rgba(238,242,248,0.18)" stroke-width="1.5"/>
+            <g class="ticks" id="ticks"></g>
+            <circle cx="200" cy="200" r="150" fill="none" stroke="rgba(238,242,248,0.16)" stroke-width="1"/>
+            <circle cx="200" cy="200" r="104" fill="none" stroke="rgba(226,167,27,0.28)" stroke-width="1" stroke-dasharray="3 7"/>
+            <text class="n" x="200" y="112">N</text>
+            <text x="288" y="200">E</text>
+            <text x="200" y="288">S</text>
+            <text x="112" y="200">W</text>
+            <g class="needle">
+              <polygon points="200,58 216,200 184,200" fill="#E2A71B"/>
+              <polygon points="200,342 216,200 184,200" fill="#A5B4CE" opacity="0.55"/>
+              <circle cx="200" cy="200" r="11" fill="#0B1730" stroke="#E2A71B" stroke-width="3"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <dl class="stats" aria-label="Club at a glance">
+        <div><dt>Members</dt><dd data-count="members">0</dd></div>
+        <div><dt>Achievements</dt><dd data-count="achievements">0</dd></div>
+        <div><dt>Certificates</dt><dd data-count="certificates">0</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap about">
+      <div class="scroll-in">
+        <p class="kicker">About the club</p>
+        <h2 class="display">Trained to lead. Called to serve.</h2>
+        <p class="body">A Master Guide is a leader who has completed the advanced leadership training of Pathfinder ministry. In the Davao Mission, our Master Guides guide clubs in local churches, train new staff and give young people a safe place to grow in faith, character and skill.</p>
+      </div>
+      <ul class="duties">
+        <li class="scroll-in">
+          <span class="duty-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 21V4m0 0h12l-2.5 4L18 12H6"/></svg></span>
+          <div><h3>Lead and train</h3><p>We run staff training and leadership courses so every club in the Mission has prepared, dependable leaders.</p></div>
+        </li>
+        <li class="scroll-in">
+          <span class="duty-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.3"/><path d="M16 14.2c2.8.2 5 2.4 5 5.8"/></svg></span>
+          <div><h3>Mentor the youth</h3><p>Pathfinders and Adventurers learn by walking beside someone who has done it before. We make that walk happen.</p></div>
+        </li>
+        <li class="scroll-in">
+          <span class="duty-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></span>
+          <div><h3>Serve the community</h3><p>Feeding programs, clean-up drives and disaster response, organized with churches and neighbors across Davao.</p></div>
+        </li>
+        <li class="scroll-in">
+          <span class="duty-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 20 12 4.5 21.5 20z"/><path d="M9.5 20l2.5-5 2.5 5"/></svg></span>
+          <div><h3>Camp and teach outdoors</h3><p>Camporees, honors and field skills, from knots and first aid to navigation by map and compass.</p></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="band" aria-label="Club motto">
+    <div class="wrap band-inner">
+      <h2><span>Lead.</span><span>Serve.</span><span>Pass it on.</span></h2>
+      <div>
+        <p>Every Master Guide started as someone else's Pathfinder. Meet the people who now carry the trail forward.</p>
+        <a class="btn btn-gold" href="#members" data-view-link="members">See the roster
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <span>Masterguide Club · Davao Mission of Seventh-day Adventists</span>
+      <span class="mono">Davao City, Philippines</span>
+    </div>
+  </footer>
+</main>
+
+<!-- ============ MEMBERS ============ -->
+<main id="view-members" class="view" hidden>
+  <section class="page-head">
+    <div class="wrap">
+      <p class="eyebrow mono">Roster · <span id="countLabel">0 members</span></p>
+      <h1>Our Members</h1>
+      <p class="sub">Select a member to see their full details, achievements and certificates.</p>
+      <label class="search" for="q">
+        <span class="sr">Search members</span>
+        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="9" r="6"/><path d="M14 14l4 4"/></svg>
+        <input id="q" type="search" placeholder="Search by name, role or barangay" autocomplete="off">
+      </label>
+    </div>
+  </section>
+  <section class="roster">
+    <div class="wrap">
+      <ul class="grid" id="grid"></ul>
+      <p class="empty" id="empty" hidden>No members match that search.</p>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <span>Masterguide Club · Davao Mission of Seventh-day Adventists</span>
+      <span class="mono">Davao City, Philippines</span>
+    </div>
+  </footer>
+</main>
+
+<!-- ============ MEMBER DETAIL ============ -->
+<dialog id="dlg" aria-labelledby="dlgName">
+  <button class="dlg-close" id="dlgClose" type="button" aria-label="Close details">
+    <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg>
+  </button>
+  <div class="dlg-body">
+    <div class="dlg-head">
+      <span class="avatar" id="dlgAvatar"></span>
+      <div><p class="role" id="dlgRole"></p><h2 id="dlgName"></h2></div>
+    </div>
+    <dl class="dlg-meta">
+      <div><dt>Date of birth</dt><dd id="dlgDob"></dd></div>
+      <div><dt>Age</dt><dd id="dlgAge"></dd></div>
+      <div style="grid-column: 1 / -1"><dt>Address</dt><dd id="dlgAddr"></dd></div>
+    </dl>
+    <div class="dlg-cols">
+      <section aria-labelledby="achH"><h3 id="achH">Achievements</h3><ul class="ach" id="dlgAch"></ul></section>
+      <section aria-labelledby="certH"><h3 id="certH">Certificates</h3><ul class="cert" id="dlgCert"></ul></section>
+    </div>
+    <section class="dlg-qr" aria-labelledby="qrH">
+      <div class="qr-box"><img id="dlgQr" alt=""></div>
+      <div class="qr-info">
+        <h3 id="qrH">Member QR code</h3>
+        <p>Scan with a phone camera to open this member’s profile on the Members page.</p>
+        <p class="qr-url" id="dlgQrUrl"></p>
+        <div class="qr-actions">
+          <button class="chip-btn" id="copyBtn" type="button">Copy link</button>
+          <button class="chip-btn" id="printBtn" type="button" hidden>Print QR card</button>
+          <button class="chip-btn" id="saveBtn" type="button" hidden>Download PNG</button>
+        </div>
+        <p class="qr-hint" id="qrHint"></p>
+      </div>
+    </section>
+  </div>
+</dialog>
+
+<!-- Print-only QR card (hidden on screen) -->
+<div id="printCard" aria-hidden="true">
+  <div class="pc-card">
+    <p class="pc-club">Masterguide Club</p>
+    <p class="pc-sub">Davao Mission · Seventh-day Adventist Church</p>
+    <img id="pcQr" alt="">
+    <p class="pc-name" id="pcName"></p>
+    <p class="pc-role" id="pcRole"></p>
+    <p class="pc-scan">Scan to open this member’s profile</p>
+    <p class="pc-url" id="pcUrl"></p>
+  </div>
+</div>
+
+<script src="js/vendor/qrcode.js"></script>
+<script src="js/members.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
